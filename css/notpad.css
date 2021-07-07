@@ -1,0 +1,83 @@
+body {
+  background-color: lightgray;
+  direction: rtl;
+  background-image: url("victor-ene-E-c4PT831-8-unsplash.jpg");
+  font-weight: 500;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  position: fixed;
+  left: 460px;
+}
+.remove-note,
+.remove-note:hover {
+  float: left;
+  color: tomato;
+  cursor: pointer;
+  font-weight: bold;
+  padding-left: 10px;
+}
+#list {
+  margin-right: 1100px;
+  margin-top: 60px;
+}
+
+#form {
+  margin-right: 250px;
+  position: fixed;
+  top: 200px;
+}
+
+#label {
+  margin-right: 200px;
+  font-size: 20px;
+  position: fixed;
+  top: 160px;
+  right: 100px;
+}
+
+#note {
+  width: 500px;
+  height: 400px;
+  border-radius: 10%;
+  padding: 50px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.button {
+  padding: 20px;
+  position: relative;
+  left: 310px;
+  bottom: px;
+  background-color: #efedf0;
+  border-radius: 50%;
+  border: #27645f solid 1px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+  font-size: bold;
+}
+
+#note-list {
+  font-size: bold;
+  width: 500px;
+  height: 400px;
+  border-radius: 10%;
+  background-color: white;
+  position: fixed;
+  left: 270px;
+  top: 200px;
+}
